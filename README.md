@@ -1,2 +1,3 @@
 # css-animation
-A simple and visually appealing CSS Ball Animation built using HTML and CSS, featuring smooth movement and engaging animation effects. Perfect for showcasing CSS animation skills and creative web design.
+A creative CSS Ball Animation project built using HTML5 and CSS3, showcasing smooth motion, fluid transitions, and engaging visual effects. Designed to explore the power of CSS animations and bring simple elements to life through clean, lightweight code.
+live URL:https://abdulwahababbasi202.github.io/css-animation/
