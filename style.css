@@ -1,0 +1,81 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+section{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.bounce{
+    background-color: aliceblue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    animation: ball;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+}
+.revers{
+    animation: bal;
+     background-color: aliceblue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+}
+@keyframes ball {
+    0%{
+        left: 0%;
+        top: 20%;
+    }
+    25%{
+        left: 30%;
+        top: 85%;
+    }
+    50%{
+        left: 50%;
+        top: 20%;
+    }
+    75%{
+        left: 70%;
+        top: 85%;
+    }
+    100%{
+        left: 90%;
+        top: 20%;
+    }
+}
+
+@keyframes bal {
+     0%{
+        right: 0%;
+        top: 20%;
+    }
+    25%{
+        right: 30%;
+        top: 85%;
+    }
+    50%{
+        right: 50%;
+        top: 20%;
+    }
+    75%{
+        right: 70%;
+        top: 85%;
+    }
+    100%{
+        right: 90%;
+        top: 20%;
+    }
+}
